@@ -67,6 +67,13 @@ transition: all .50s ease;
     cursor: pointer;
     display: none;
 }
+.profile_img img{
+    border-radius: 50%;
+    object-fit: cover;
+margin-left: 15px;
+border: 7px solid cadetblue;
+box-shadow: 0 0 20px cadetblue;
+}
 .h-btn{
     display: inline-block;
     padding:11px 25px;
@@ -563,3 +570,4 @@ font-size: 22px;
     box-shadow: 0 0 20px cadetblue;
        }
     }
+
